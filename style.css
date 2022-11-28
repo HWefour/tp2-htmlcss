@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+
+a[href] {
+    color: yellow;
+}
+
+#voitures {
+    background-color: lightgray;
+}
+
+div :not(#voitures) {
+    text-align: right;
+}
+
+div:not(#voitures)  {
+    font-size: 2em;
+}
